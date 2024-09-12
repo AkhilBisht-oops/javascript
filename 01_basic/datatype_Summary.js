@@ -21,6 +21,8 @@ const bigNumber = 344657678958930n
 // refernce tupe(non-primitive)
 
 // Array, Objects,Functions
+// in non-primitive data type gives function in a return type except function 
+// function datatype gives function-object return type
 
 const heros = ["Iron Man" , "Thor", "Deadpool"];
 let myObj = {
