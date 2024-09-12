@@ -35,3 +35,31 @@ const  myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+// ************************************************************************
+
+// all primitive datatype are stored in a stack
+// pass by value
+// value is copy if we change in one it doesn't change the another 
+let myCodeforce = "bishtakhil303dotcom"
+
+let anotherename = myCodeforce
+anotherename = "bishtakhil303"
+
+console.log(myCodeforce);
+console.log(anotherename);
+
+
+// all non-primitive datatype stored in a heap
+// pass by reference 
+// value is real if we change in one it also change anothere  
+let userOne = {
+    email: "userOne@google.com",
+    upi: "useronesbi"
+}
+
+let userTwo = userOne
+userTwo.email = "userTwo@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
